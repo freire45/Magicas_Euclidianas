@@ -1,0 +1,1121 @@
+@media screen and (min-width: 0) {
+  body {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: burlywood;
+  }
+
+  .titulo-principal {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
+  }
+  .titulo-principal:hover {
+    color: rgb(77, 52, 21);
+    transform: scale(1.2);
+    font-weight: bolder;
+    text-shadow: 15px 15px 15px black;
+  }
+
+  .alinha-pagina-principal {
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .img-principal {
+    width: 375px;
+    text-align: center;
+  }
+
+  .alinha-botao {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .botao-principal {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    color: burlywood;
+    background-color: rgb(77, 52, 21);
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .botao-principal:hover {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    color: rgb(77, 52, 21);
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .principal-magicos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .magico1 {
+    width: 375;
+  }
+
+  .magico1:hover {
+    background-color: cadetblue;
+    border: 2px 2px 2px 2px solid;
+    border-color: aquamarine;
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico2 {
+    width: 375;
+  }
+
+  .magico2:hover {
+    background-color: rgb(74, 75, 32);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(84, 122, 14);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico3 {
+    width: 375;
+  }
+
+  .magico3:hover {
+    background-color: rgb(32, 75, 45);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(0, 255, 98);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico4 {
+    width: 375;
+  }
+
+  .magico4:hover {
+    background-color: rgb(61, 9, 48);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(255, 0, 191);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .nome-mago {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .conteiner-mago {
+    width: 200px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .imagem-mago {
+    width: 250px;
+  }
+
+  .botao-magos {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .botao-mago1 {
+    border-radius: 5px;
+    background-color: rgb(37, 0, 105);
+    color: white;
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago2 {
+    border-radius: 5px;
+    background-color: rgb(208, 255, 0);
+    color: rgb(71, 83, 1);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago3 {
+    border-radius: 5px;
+    background-color: rgb(1, 58, 26);
+    color: rgb(0, 255, 64);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago4 {
+    border-radius: 5px;
+    background-color: rgb(54, 1, 43);
+    color: rgb(255, 0, 179);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .imagem-magico-principal {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imagem-magico-principal-alinhamento {
+    width: 200px;
+  }
+
+  .problema-dica {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+  }
+
+  .problema-dica h2 {
+    margin-left: 10px;
+    font-size: 2rem;
+  }
+
+  .problema-dica p {
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 1rem;
+  }
+
+  .problema-dica ol li {
+    margin-left: 20px;
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+
+  .organizar-valores {
+    text-align: center;
+  }
+
+  .entrada-valor {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-idade {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .entrada-valor-mes {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-mes {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .entrada-valor-dia {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-dia {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  #resultado {
+    text-align: center;
+  }
+
+  #repBotao {
+    text-align: center;
+  }
+
+  #botao-Dica {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .video {
+    width: 375px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .conteiner-plano {
+    text-align: center;
+  }
+
+  .imagem-plano-de-aula {
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .integrantes {
+    text-align: center;
+  }
+
+  .lista-plano-de-aula li {
+    padding-bottom: 20px;
+  }
+
+  .apresentacao {
+    width: 375px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: burlywood;
+  }
+
+  .titulo-principal {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
+  }
+  .titulo-principal:hover {
+    color: rgb(77, 52, 21);
+    transform: scale(1.2);
+    font-weight: bolder;
+    text-shadow: 15px 15px 15px black;
+  }
+
+  .alinha-pagina-principal {
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .img-principal {
+    width: 400px;
+  }
+
+  .alinha-botao {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .botao-principal {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    color: burlywood;
+    background-color: rgb(77, 52, 21);
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .botao-principal:hover {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    color: rgb(77, 52, 21);
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .principal-magicos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .magico1 {
+    width: 220;
+  }
+
+  .magico1:hover {
+    background-color: cadetblue;
+    border: 2px 2px 2px 2px solid;
+    border-color: aquamarine;
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico2 {
+    width: 220;
+  }
+
+  .magico2:hover {
+    background-color: rgb(74, 75, 32);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(84, 122, 14);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico3 {
+    width: 220;
+  }
+
+  .magico3:hover {
+    background-color: rgb(32, 75, 45);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(0, 255, 98);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico4 {
+    width: 220;
+  }
+
+  .magico4:hover {
+    background-color: rgb(61, 9, 48);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(255, 0, 191);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .nome-mago {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .conteiner-mago {
+    width: 200px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .imagem-mago {
+    width: 250px;
+  }
+
+  .botao-magos {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .botao-mago1 {
+    border-radius: 5px;
+    background-color: rgb(37, 0, 105);
+    color: white;
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago2 {
+    border-radius: 5px;
+    background-color: rgb(208, 255, 0);
+    color: rgb(71, 83, 1);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago3 {
+    border-radius: 5px;
+    background-color: rgb(1, 58, 26);
+    color: rgb(0, 255, 64);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago4 {
+    border-radius: 5px;
+    background-color: rgb(54, 1, 43);
+    color: rgb(255, 0, 179);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .imagem-magico-principal {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imagem-magico-principal-alinhamento {
+    width: 400px;
+  }
+
+  .problema-dica {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+  }
+
+  .problema-dica h2 {
+    margin-left: 40px;
+    font-size: 4rem;
+  }
+
+  .problema-dica p {
+    margin-left: 40px;
+    font-size: 2rem;
+  }
+
+  .problema-dica ol li {
+    margin-left: 40px;
+    font-size: 2rem;
+  }
+
+  .organizar-valores {
+    text-align: center;
+  }
+
+  .entrada-valor {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-idade {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .entrada-valor-mes {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-mes {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .entrada-valor-dia {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-dia {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  #resultado {
+    text-align: center;
+  }
+
+  #repBotao {
+    text-align: center;
+  }
+
+  #botao-Dica {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .video {
+    width: 768px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .conteiner-plano {
+    text-align: center;
+  }
+
+  .imagem-plano-de-aula {
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .integrantes {
+    text-align: center;
+  }
+
+  .lista-plano-de-aula li {
+    padding-bottom: 20px;
+  }
+
+  .apresentacao {
+    width: 768px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: burlywood;
+  }
+
+  .titulo-principal {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
+  }
+  .titulo-principal:hover {
+    color: rgb(77, 52, 21);
+    transform: scale(1.2);
+    font-weight: bolder;
+    text-shadow: 15px 15px 15px black;
+  }
+
+  .alinha-pagina-principal {
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .img-principal {
+    width: 400px;
+  }
+
+  .alinha-botao {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .botao-principal {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    color: burlywood;
+    background-color: rgb(77, 52, 21);
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .botao-principal:hover {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    color: rgb(77, 52, 21);
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  .principal-magicos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .magico1 {
+    width: 220;
+  }
+
+  .magico1:hover {
+    background-color: cadetblue;
+    border: 2px 2px 2px 2px solid;
+    border-color: aquamarine;
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico2 {
+    width: 220;
+  }
+
+  .magico2:hover {
+    background-color: rgb(74, 75, 32);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(84, 122, 14);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico3 {
+    width: 220;
+  }
+
+  .magico3:hover {
+    background-color: rgb(32, 75, 45);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(0, 255, 98);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+  }
+
+  .magico4 {
+    width: 220;
+  }
+
+  .magico4:hover {
+    background-color: rgb(61, 9, 48);
+    border: 2px 2px 2px 2px solid;
+    border-color: rgb(255, 0, 191);
+    border-radius: 5px;
+    transform: scale(1.2);
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .nome-mago {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .conteiner-mago {
+    width: 200px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .imagem-mago {
+    width: 250px;
+  }
+
+  .botao-magos {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .botao-mago1 {
+    border-radius: 5px;
+    background-color: rgb(37, 0, 105);
+    color: white;
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago2 {
+    border-radius: 5px;
+    background-color: rgb(208, 255, 0);
+    color: rgb(71, 83, 1);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago3 {
+    border-radius: 5px;
+    background-color: rgb(1, 58, 26);
+    color: rgb(0, 255, 64);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .botao-mago4 {
+    border-radius: 5px;
+    background-color: rgb(54, 1, 43);
+    color: rgb(255, 0, 179);
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding: 10px;
+  }
+
+  .imagem-magico-principal {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .imagem-magico-principal-alinhamento {
+    width: 400px;
+  }
+
+  .problema-dica {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+  }
+
+  .problema-dica h2 {
+    margin-left: 40px;
+    font-size: 4rem;
+  }
+
+  .problema-dica p {
+    margin-left: 40px;
+    font-size: 2rem;
+  }
+
+  .problema-dica ol li {
+    margin-left: 40px;
+    font-size: 2rem;
+  }
+
+  .organizar-valores {
+    text-align: center;
+  }
+
+  .entrada-valor {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-idade {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .entrada-valor-mes {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-mes {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .entrada-valor-dia {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 255, 0);
+    border-color: brown;
+  }
+
+  .enviar-dia {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  #resultado {
+    text-align: center;
+  }
+
+  #repBotao {
+    text-align: center;
+  }
+
+  #botao-Dica {
+    font-family: "Rubik Scribble", system-ui, arial, cursive;
+    font-weight: border;
+    font-size: 2rem;
+    font-style: normal;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(70, 85, 2);
+    border-color: brown;
+    color: white;
+  }
+
+  .video {
+    width: 900px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .conteiner-plano {
+    text-align: center;
+  }
+
+  .imagem-plano-de-aula {
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .integrantes {
+    text-align: center;
+  }
+
+  .lista-plano-de-aula li {
+    padding-bottom: 20px;
+  }
+
+  .apresentacao {
+    width: 900px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
